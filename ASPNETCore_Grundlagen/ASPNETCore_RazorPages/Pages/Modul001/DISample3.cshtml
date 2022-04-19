@@ -1,0 +1,8 @@
+﻿@page
+@using ASPNETCore_RazorPages.Services;
+@inject IRequestCounter requestCounter;
+
+@model ASPNETCore_RazorPages.Pages.Modul001.DISample3Model
+
+@*Zuerst wird hochgezählt und danach Ausgegeben*@
+@(++requestCounter.Anzahl)

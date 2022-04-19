@@ -1,4 +1,6 @@
 //WebApplicationBuilder kümmert sich um das Initaliseren der WebApp 
+using ASPNETCore_RazorPages.Services;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args); //Factory Methode und gibt WebApplicationBuilder zurück
 
 
@@ -7,20 +9,21 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args); //Factory Me
 builder.Services.AddRazorPages(); //Wir fürgen das RazorPage UI-Framework hinzu
 
 
-/*builder.Services.AddControllersWithViews(); *///Wir verwenden MVC 
-/*builder.Services.AddMvc();*/ // Kompination von RazorPages und MVC
-
-//WebAPI 
-//builder.Services.AddControllers();
-
-//.NET 5 abwärst-Compilier ->IHostBulder wird in .NET verwendet
-//builder.Host.
-
-//NET 2.1 WebHost
-//builder.WebHost
+//RequestCounter wird einmal erstellt und steht immer bereit
+builder.Services.AddSingleton<IRequestCounter, RequestCounter>();
 
 
-var app = builder.Build();
+WebApplication app = builder.Build();
+
+
+#region Zugriff auf IOC Container in .NET6 (Workflow -> für EF Core - Testdaten)
+IRequestCounter requestCounter1 = app.Services.GetService<IRequestCounter>();
+#endregion
+
+#region Zugriff auf IOC Container nach .NET 2.1 
+IServiceScope scope = app.Services.CreateScope();
+IRequestCounter requestCounter2 = scope.ServiceProvider.GetService<IRequestCounter>();
+#endregion
 
 
 //in .NET 5  public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

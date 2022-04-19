@@ -1,0 +1,16 @@
+﻿@page "{id:int?}" 
+
+@*https://localhost:44363/Modul002/FromRouteSample  hier wird 0 ausgegeben*@
+@*https://localhost:44363/Modul002/FromRouteSample/123  hier wird 123 ausgegeben*@
+
+
+@*@page "{id:int}" *@
+@*https://localhost:44363/Modul002/FromRouteSample  keine Seite gefunden*@
+@*https://localhost:44363/Modul002/FromRouteSample/123  hier wird 123 ausgegeben*@
+
+@*Erweiterung der URL mit einem weiteren Segment*@
+@model ASPNETCore_RazorPages.Pages.Modul002.FromRouteSampleModel
+@{
+}
+
+@Model.Id

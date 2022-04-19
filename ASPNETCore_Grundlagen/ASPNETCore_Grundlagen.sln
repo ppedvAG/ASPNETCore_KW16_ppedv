@@ -5,25 +5,25 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{17FF49D5-7BEB-4A4B-B744-A478EC57B08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_SingleResponsibilityPrincipe", "SOLID_SingleResponsibilityPrincipe\SOLID_SingleResponsibilityPrincipe.csproj", "{15BDB68F-BB58-462A-9DC2-FB518C414A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_SingleResponsibilityPrincipe", "SOLID_SingleResponsibilityPrincipe\SOLID_SingleResponsibilityPrincipe.csproj", "{15BDB68F-BB58-462A-9DC2-FB518C414A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_OpenClosePrincipe", "SOLID_OpenClosePrincipe\SOLID_OpenClosePrincipe.csproj", "{BBEFD06F-A64C-493E-B53E-32AF181FC076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_OpenClosePrincipe", "SOLID_OpenClosePrincipe\SOLID_OpenClosePrincipe.csproj", "{BBEFD06F-A64C-493E-B53E-32AF181FC076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_LizkovischesPrinzip", "SOLID_LizkovischesPrinzip\SOLID_LizkovischesPrinzip.csproj", "{92650AFB-C96C-4329-9458-44C6AAC835F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_LizkovischesPrinzip", "SOLID_LizkovischesPrinzip\SOLID_LizkovischesPrinzip.csproj", "{92650AFB-C96C-4329-9458-44C6AAC835F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_Infertace_Segeration_Principe", "SOLID_Infertace_Segeration_Principe\SOLID_Infertace_Segeration_Principe.csproj", "{94AA0F26-A83F-47D6-A079-802A44BA68E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_Infertace_Segeration_Principe", "SOLID_Infertace_Segeration_Principe\SOLID_Infertace_Segeration_Principe.csproj", "{94AA0F26-A83F-47D6-A079-802A44BA68E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_DependencyInversion", "SOLID_DependencyInversion\SOLID_DependencyInversion.csproj", "{C8F8B210-C44C-4269-B420-B90E24E79179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID_DependencyInversion", "SOLID_DependencyInversion\SOLID_DependencyInversion.csproj", "{C8F8B210-C44C-4269-B420-B90E24E79179}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOCContainerInASPNETCore", "IOCContainerInASPNETCore", "{6C125677-62AE-499E-B1C8-B3F57AB2E77C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCSampleInConsole", "IOCSampleInConsole\IOCSampleInConsole.csproj", "{02C3EAC5-C8F2-45E4-AACC-3EC1B6A47081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOCSampleInConsole", "IOCSampleInConsole\IOCSampleInConsole.csproj", "{02C3EAC5-C8F2-45E4-AACC-3EC1B6A47081}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNETCore", "ASPNETCore", "{D4993BBB-729A-4540-B57E-5500D52D69EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCore_RazorPages", "ASPNETCore_RazorPages\ASPNETCore_RazorPages.csproj", "{AFA371CB-7524-42A2-95F2-269DF30AB605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETCore_RazorPages", "ASPNETCore_RazorPages\ASPNETCore_RazorPages.csproj", "{AFA371CB-7524-42A2-95F2-269DF30AB605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCore_RazorPagesNET5", "ASPNETCore_RazorPagesNET5\ASPNETCore_RazorPagesNET5.csproj", "{752BCBDF-72EE-46CE-B7AC-6C033FA7F3EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETCore_RazorPagesNET5", "ASPNETCore_RazorPagesNET5\ASPNETCore_RazorPagesNET5.csproj", "{752BCBDF-72EE-46CE-B7AC-6C033FA7F3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

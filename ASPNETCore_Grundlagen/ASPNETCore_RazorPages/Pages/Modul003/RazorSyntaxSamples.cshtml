@@ -1,0 +1,158 @@
+﻿@page
+
+@model ASPNETCore_RazorPages.Pages.Modul003.RazorSyntaxSamplesModel
+
+@{
+    Layout = "_Layout";
+
+    Person person = new Person("Otto Walkes", 21);
+}
+
+@*Einfache Ausgabe einer Variablen *@
+<p>@Model.Username</p>
+
+<p>Ausgabe des At-Zeichen</p>
+<p>@@Model.Username</p>
+
+<hr />
+@* 2.)Implizite Razor-Ausdrücke - Implizite Razor-Ausdrücke beginnen mit @ gefolgt von C#-Code: *@
+<p>Verwenden von C#-Klassen</p>
+<p>@DateTime.Now</p>
+<p>Ist das Jahr 2016 ein Schaltjahr? @DateTime.IsLeapYear(2016)</p>
+
+
+<p>Welches Datum war vor 7 Tagen @(DateTime.Now - TimeSpan.FromDays(7))</p>
+<hr />
+<p>Ausgabe eines komlexen Objektes</p>
+<p>Namensausgabe: @person.Name </p>
+<p>Altersausgabe: @person.Age</p>
+
+<hr />
+
+<p>For-Schleife</p>
+@for(int index=0; index < Model.Peoples.Length; index++ )
+{
+    <p>@Model.Peoples[index].Name - @Model.Peoples[index].Age</p>
+}
+
+
+<p>foreach - Schleife</p>
+@foreach (Person currentPerson in Model.Peoples)
+{
+    <p>@currentPerson.Name - @currentPerson.Age</p>
+}
+<hr />
+
+@{
+    int value = 124; 
+}
+
+<p>Value durch 2 teilbar?</p>
+@if (value % 2 == 0)
+{
+    <p>@value ist durch 2 teilbar</p>
+}
+else
+{
+    <p>@value ist nicht durch 2 teilbar</p>
+}
+
+<p>Switch Sample</p>
+@switch (value)
+{
+    case 124:
+        <p>The value is 124</p>
+        break;
+    default:
+        <p>unerwarteter Wert</p>
+        break;
+}
+
+<hr />
+
+@* 7.2.3 @while *@
+@{
+    int i = 0; 
+}
+@while (i < @Model.Peoples.Length)
+{
+  
+    <p>Name: @Model.Peoples[i].Name</p>
+    <p>Age: @Model.Peoples[i].Age</p>
+
+    i++;
+}
+
+@* 7.2.4 @do while *@
+
+@{i = 0; }
+@do
+{
+    <p>Name: @Model.Peoples[i].Name</p>
+    <p>Age:@Model.Peoples[i].Age</p>
+
+    i++;
+} while (i < @Model.Peoples.Length);
+
+<hr />
+
+@using (Html.BeginForm())
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+        <button>Register</button>
+    </div>
+}
+
+
+@* 7.4 @try, catch, finally
+
+*@
+@try
+{
+    throw new InvalidOperationException("You did something invalid.");
+}
+catch (Exception ex)
+{
+    <p>The exception message: @ex.Message</p>
+}
+finally
+{
+    <p>The finally statement.</p>
+}
+
+
+
+@* 7.5 @lock *@
+@lock (Model.Username)
+{
+    // Do critical section work
+}
+
+
+
+@using ASPNETCore_RazorPages.Services
+@inject IRequestCounter counter
+
+
+@implements IDisposable
+
+@functions {
+    private bool _isDisposed;
+
+    public void Dispose()
+    {
+        _isDisposed = true;
+    }
+}
+
+@*Section wird für das Einbinden von Scripten verwendet*@
+@section Scripts {
+    <script type="text/javascript" src="~/scripts/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            alert("Test");
+        });
+    </script>
+}

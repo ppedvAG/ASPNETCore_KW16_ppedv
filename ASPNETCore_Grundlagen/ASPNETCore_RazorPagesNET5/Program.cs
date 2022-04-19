@@ -13,7 +13,19 @@ namespace ASPNETCore_RazorPagesNET5
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+
+            //Configuration von Serilog wurden eingelesen und 
+            IHost host = CreateHostBuilder(args).Build();
+
+            try
+            {
+                host.Run();
+            }
+            catch (Exception ex)
+            {
+                //Log.Error(ex.ToString());
+            }
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

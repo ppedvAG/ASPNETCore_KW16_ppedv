@@ -16,7 +16,6 @@ C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPa
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\ASPNETCore_RazorPages.RazorAssemblyInfo.cs
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\staticwebassets.build.json
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\staticwebassets.development.json
-C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\scopedcss\bundle\ASPNETCore_RazorPages.styles.css
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\scopedcss\projectbundle\ASPNETCore_RazorPages.bundle.scp.css
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\ASPNETCore_RazorPages.dll
@@ -24,3 +23,19 @@ C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPa
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\ASPNETCore_RazorPages.pdb
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\ASPNETCore_RazorPages.genruntimeconfig.cache
 C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\ref\ASPNETCore_RazorPages.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout2.cshtml.rz.scp.css
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout3.cshtml.rz.scp.css
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\GameSettings.Development.json
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\GameSettings.json
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages\obj\Debug\net6.0\ASPNETCore_RazorPages.csproj.CopyComplete

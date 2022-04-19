@@ -14,6 +14,7 @@ namespace ASPNETCore_RazorPages.Pages
 
         public void OnGet()
         {
+            _logger.LogInformation("Privacy Seite wurde aufgerufen");
         }
     }
 }

@@ -1,0 +1,12 @@
+2022-04-19 16:50:07.699 +02:00 [INF] Starting web host
+2022-04-19 16:50:08.373 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 16:50:21.301 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 16:50:26.775 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:32.386 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:32.512 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:32.663 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:32.802 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:32.926 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:33.065 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:33.170 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 16:50:33.343 +02:00 [INF] Privacy Seite wurde aufgerufen

@@ -1,0 +1,13 @@
+﻿@page
+@model ASPNETCore_RazorPages.Pages.Modul004.ConfigurationSample2Model
+@{
+}
+
+
+<p>@Model.GameConfigSettings.Title </p>
+<p>@Model.GameConfigSettings.SubTitle</p>
+
+@foreach(string current in Model.GameConfigSettings.Updates)
+{
+    <p>@current</p>
+}

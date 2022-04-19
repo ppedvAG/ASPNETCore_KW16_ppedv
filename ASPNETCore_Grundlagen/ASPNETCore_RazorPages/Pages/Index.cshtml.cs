@@ -14,7 +14,7 @@ namespace ASPNETCore_RazorPages.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Index Seite wurde aufgerufen");
         }
     }
 }

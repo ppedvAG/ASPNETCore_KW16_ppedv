@@ -10,3 +10,73 @@
 2022-04-19 16:50:33.065 +02:00 [INF] Privacy Seite wurde aufgerufen
 2022-04-19 16:50:33.170 +02:00 [INF] Privacy Seite wurde aufgerufen
 2022-04-19 16:50:33.343 +02:00 [INF] Privacy Seite wurde aufgerufen
+2022-04-19 19:34:48.765 +02:00 [INF] Starting web host
+2022-04-19 19:34:49.020 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:39:28.500 +02:00 [INF] Starting web host
+2022-04-19 19:39:28.753 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:41:34.705 +02:00 [INF] Starting web host
+2022-04-19 19:41:35.057 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:43:24.411 +02:00 [INF] Starting web host
+2022-04-19 19:43:24.713 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:45:17.663 +02:00 [INF] Starting web host
+2022-04-19 19:45:18.079 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:46:36.968 +02:00 [INF] Starting web host
+2022-04-19 19:46:37.370 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:48:28.369 +02:00 [INF] Starting web host
+2022-04-19 19:48:28.939 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:49:11.467 +02:00 [INF] Starting web host
+2022-04-19 19:49:11.713 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:54:23.800 +02:00 [INF] Starting web host
+2022-04-19 19:54:24.053 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:56:29.057 +02:00 [INF] Starting web host
+2022-04-19 19:56:29.666 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:58:02.130 +02:00 [INF] Starting web host
+2022-04-19 19:58:02.358 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:58:05.177 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'ASPNETCore_RazorPages.Services.IRequestCounter' while attempting to activate 'ASPNETCore_RazorPages.Pages.Modul001.DISample1Model'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method25(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass3_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-19 19:59:44.295 +02:00 [INF] Starting web host
+2022-04-19 19:59:44.530 +02:00 [INF] Index Seite wurde aufgerufen
+2022-04-19 19:59:46.394 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'ASPNETCore_RazorPages.Services.IRequestCounter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.<>c__DisplayClass8_0.<CreateActivateInfo>b__1(ViewContext context)
+   at Microsoft.Extensions.Internal.PropertyActivator`1.Activate(Object instance, TContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageFactoryProvider.<>c__DisplayClass4_0.<CreatePageFactory>b__0(PageContext pageContext, ViewContext viewContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-19 20:00:23.639 +02:00 [INF] Starting web host
+2022-04-19 20:00:23.903 +02:00 [INF] Index Seite wurde aufgerufen

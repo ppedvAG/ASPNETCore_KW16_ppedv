@@ -13,29 +13,29 @@ Vorab:
 Tag 1:
 
 Modul 0: Was ist ASP.NET Core?
-- [ ] Überblick ASP.NET Core
-- [ ] Neuerungen in ASP.NET Core 6
+- [x] Überblick ASP.NET Core
+- [x] Neuerungen in ASP.NET Core 6
 
 Modul 1:
-- SOLID 
-- Dependency Injections
+- [x] SOLID 
+- [x] Dependency Injections
 
 Modul 2: Einstieg in ASP.NET Core
-- [ ] Projektstruktur
-- [ ] Razor Pages
-    - [ ] Get / Post - Methoden und Konzept
-    - [ ] QueryString / Route - Paramter an Get-Methode
-    - [ ] Page-Handler 
-    - [ ] Asp-Handler
+- [x] Projektstruktur
+- [x] Razor Pages
+    - [x] Get / Post - Methoden und Konzept
+    - [x] QueryString / Route - Paramter an Get-Methode
+    - [x] Page-Handler 
+    - [x] Asp-Handler
 
 Modul 3: 
-- [ ] Razor Syntax
-- [ ] Layouts
-- [ ] Bootstrap
+- [x] Razor Syntax
+- [x] Layouts
+- [x] Bootstrap
 
 Modul 4:
-- [ ] Konfigurationen
-- [ ] Logging mit Serilog
+- [x] Konfigurationen
+- [x] Logging mit Serilog
   
 Tag 2:
 
@@ -48,9 +48,10 @@ Modul 5: EF Core
 - [ ] Scaffolding
 
 Modul 6: Modelvalidierung
-- [ ]  Clientseitige Validierung
+- [wird nicht gezeigt]  Clientseitige Validierung
+- [wird nicht gezeigt]  BugFix für Clientseitige Validierung
 - [ ]  Serverseitige Validierung
-- [ ]  BugFix für Clientseitige Validierung
+
 
 Modul 7: 
 - [ ] Partial Views
@@ -90,6 +91,21 @@ Modul 11:
 Modul 12:
 - [ ] Middleware Pipeline
 - [ ] Photo Gallery
+
+
+Tag3: 
+WebAPI 
+- [ ] Einstieg 
+- [ ] Eingliederung im ASP.NET Core (Verwansdschaft mit MVC)
+
+- [ ] RestufFul 
+- [ ] Rückgabe Werte
+- [ ] Get/Post/Put/Delete - Beispiele
+- [ ] Swagger
+- [ ] Swagger - Client 
+- [ ] Broadcast Video 
+- [ ] Multipler File-Upload und Download vie Zip
+
 
 
 

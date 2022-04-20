@@ -1,0 +1,39 @@
+﻿@page
+@using Microsoft.AspNetCore.Localization
+@model ASPNETCore_RazorPages.Pages.Modul010.ViewComponentSample1Model
+@{
+    var requestCultureFeature = HttpContext.Features.Get<IRequestCultureFeature>();
+    var requestCulture = requestCultureFeature.RequestCulture;
+}
+
+
+<table class="table culture-table">
+    <tr>
+        <td style="width:50%;">Culture</td>
+        <td>@requestCulture.Culture.DisplayName {@requestCulture.Culture.Name}</td>
+    </tr>
+    <tr>
+        <td>UI Culture</td>
+        <td>@requestCulture.UICulture.Name</td>
+    </tr>
+    <tr>
+        <td>UICulture Parent</td>
+        <td>@requestCulture.UICulture.Parent</td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>@DateTime.Now.ToLongDateString()</td>
+    </tr>
+    <tr>
+        <td>Currency</td>
+        <td>
+            @(12345.00.ToString("c"))
+        </td>
+    </tr>
+    <tr>
+        <td>Number</td>
+        <td>
+            @(123.45m.ToString("F2"))
+        </td>
+    </tr>
+</table>

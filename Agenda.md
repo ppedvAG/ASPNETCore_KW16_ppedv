@@ -64,10 +64,10 @@ Modul 7:
 - [x] HTMLHelpers
 
 Modul 8:
-- [ ] Cache Tag,
-- [ ] ViewData
-- [ ] TempData
-- [ ] Session
+- [x] Cache Tag,
+- [x] ViewData
+- [x] TempData
+- [x] Session
 
 
 

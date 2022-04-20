@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\ASPNETCore_RazorPages
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Components/CultureSwitcher/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDdWx0dXJlU3dpdGNoZXJcZGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -193,6 +197,38 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul008/ViewDataSample.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDhcVmlld0RhdGFTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/FriendlyRouteSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcRnJpZW5kbHlSb3V0ZVNhbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/QueryStringSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcUXVlcnlTdHJpbmdTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/RouteAttributeSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcUm91dGVBdHRyaWJ1dGVTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/RouteAttributeSample2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcUm91dGVBdHRyaWJ1dGVTYW1wbGUyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/RouteAttributesDestinationSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcUm91dGVBdHRyaWJ1dGVzRGVzdGluYXRpb25TYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/RouteTemplateConstraints.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcUm91dGVUZW1wbGF0ZUNvbnN0cmFpbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul009/RouteTemplatesSample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDlcUm91dGVUZW1wbGF0ZXNTYW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul010/ViewComponentSample1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMTBcVmlld0NvbXBvbmVudFNhbXBsZTEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Privacy.cshtml]

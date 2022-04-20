@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\bin\Debug\net6.0\SOLID_LizkovischesPrinzip.exe
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\bin\Debug\net6.0\SOLID_LizkovischesPrinzip.deps.json
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\bin\Debug\net6.0\SOLID_LizkovischesPrinzip.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\bin\Debug\net6.0\SOLID_LizkovischesPrinzip.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\bin\Debug\net6.0\SOLID_LizkovischesPrinzip.pdb
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\refint\SOLID_LizkovischesPrinzip.dll
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.pdb
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\SOLID_LizkovischesPrinzip.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCore_KW16_ppedv\ASPNETCore_Grundlagen\SOLID_LizkovischesPrinzip\obj\Debug\net6.0\ref\SOLID_LizkovischesPrinzip.dll

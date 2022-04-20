@@ -1,0 +1,48 @@
+﻿@page
+@model ASPNETCore_RazorPages.Pages.Modul005.DetailsModel
+@{
+}
+
+
+<h1>Details</h1>
+
+<div>+<!-- Überschrift-->
+    <h4>Movie</h4>
+    <hr />
+
+
+    <dl class="row">
+        <!-- Label -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Title)
+        </dt>
+        <!-- Variablenausgabe -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Title)
+        </dd>
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Description)
+        </dd>
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Price)
+        </dd>
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Movie.Genre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Genre)
+        </dd>
+    </dl>
+</div>

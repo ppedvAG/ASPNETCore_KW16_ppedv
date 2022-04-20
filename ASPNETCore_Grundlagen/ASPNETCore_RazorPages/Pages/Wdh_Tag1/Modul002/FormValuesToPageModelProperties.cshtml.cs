@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ASPNETCore_RazorPages.Pages.Wdh_Tag1.Modul002
 {
+    //[BindProperties] 
     public class FormValuesToPageModelPropertiesModel : PageModel
     {
         [BindProperty]

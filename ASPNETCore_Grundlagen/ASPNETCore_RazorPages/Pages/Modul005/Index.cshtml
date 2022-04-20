@@ -1,0 +1,55 @@
+﻿@page
+@model ASPNETCore_RazorPages.Pages.Modul005.IndexModel
+@{
+}
+
+
+<table class="table">
+    <thead>
+        <!--tr  Column-Zeile-->
+        <tr>
+            <!-- th Column-Header(Spalte)-->
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Genre)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(Movie currentMovie in Model.Movies)
+        {
+            <!-- Zeile -->
+            <tr>
+                <!-- Inhalt der Spalte -->
+                <td>
+                     @Html.DisplayFor(modelItem => currentMovie.Title)
+                </td>
+
+                 <td>
+                     @Html.DisplayFor(modelItem => currentMovie.Description)
+                </td>
+
+                <td>
+                     @Html.DisplayFor(modelItem => currentMovie.Price)
+                </td>
+
+                <td>
+                     @Html.DisplayFor(modelItem => currentMovie.Genre)
+                </td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@currentMovie.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

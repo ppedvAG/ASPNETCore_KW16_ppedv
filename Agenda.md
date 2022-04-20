@@ -42,15 +42,15 @@ Tag 2:
 
 
 Modul 5: EF Core
-- [ ] Entity Framework Core
-- [ ] CodeFirst
-- [ ] DataAnnotations
-- [ ] Scaffolding
+- [x] Entity Framework Core
+- [x] CodeFirst
+- [x] DataAnnotations
+- [x] Scaffolding
 
 Modul 6: Modelvalidierung
 - [wird nicht gezeigt]  Clientseitige Validierung
 - [wird nicht gezeigt]  BugFix für Clientseitige Validierung
-- [ ]  Serverseitige Validierung
+- [x]  Serverseitige Validierung
 
 
 Modul 7: 
@@ -78,6 +78,7 @@ Modul 9: Routing
 - [ ] QueryString
 - [ ] RouteAttributes
 - [ ] RouteTemplates
+- [ ] FriendlyRoutes
 
 
 Modul 10: 

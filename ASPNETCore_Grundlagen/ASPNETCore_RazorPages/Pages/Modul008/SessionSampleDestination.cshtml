@@ -1,0 +1,21 @@
+﻿@page
+@using System.Text.Json
+
+@model ASPNETCore_RazorPages.Pages.Modul008.SessionSampleDestinationModel
+@{
+    //auslesen
+            int? age = HttpContext.Session.GetInt32("age");
+            string mitarbeiter = HttpContext.Session.GetString("Mitarbeiter");
+
+            string jsonString = HttpContext.Session.GetString("MovieDesMonats");
+            Movie movie = JsonSerializer.Deserialize<Movie>(jsonString);
+
+
+}
+
+@age
+<br />
+@mitarbeiter
+<br />
+
+@movie.Id - @movie.Title - @movie.Description - @movie.Price

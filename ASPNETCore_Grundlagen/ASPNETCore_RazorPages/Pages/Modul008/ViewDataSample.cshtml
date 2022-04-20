@@ -1,0 +1,11 @@
+﻿@page
+@model ASPNETCore_RazorPages.Pages.Modul008.ViewDataSampleModel
+
+@{
+    string name = ViewData["Name"].ToString();    
+}
+
+
+@name
+<br />
+@ViewData["Email"]

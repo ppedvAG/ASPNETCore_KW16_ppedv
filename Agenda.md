@@ -60,8 +60,8 @@ Modul 7:
     - [x] Razor-Syntax Redundanzen mit Partial View beheben 
     - [x] Partial View als Optionale View-Erweiterugen 
 
-- [ ] TagHelpers
-- [ ] HTMLHelpers
+- [x] TagHelpers
+- [x] HTMLHelpers
 
 Modul 8:
 - [ ] Cache Tag,

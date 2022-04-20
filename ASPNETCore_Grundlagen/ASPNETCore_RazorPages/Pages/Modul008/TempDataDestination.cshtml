@@ -1,0 +1,11 @@
+﻿@page
+@model ASPNETCore_RazorPages.Pages.Modul008.TempDataDestinationModel
+@{
+    string msg = TempData["Message"].ToString();
+
+    //Keep Für alle Einträge gilt 
+    //z.B: TempData["Message"] kann nochmals verwendet werden 
+    TempData.Keep();
+}
+
+@msg

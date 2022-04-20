@@ -24,14 +24,12 @@ namespace ASPNETCore_RazorPages.TagHelpers
         }
     }
 
-
+    //Kein Zugriff auf IOC
     public class LockArroundTagHelper : TagHelper
     {
         private readonly SecondMovieDbContext _dbContext;
 
-        //private LockArroundTagHelper()
-        //{
-        //}
+       
         public LockArroundTagHelper(SecondMovieDbContext dbContext)
         {
             _dbContext = dbContext;

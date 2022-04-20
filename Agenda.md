@@ -54,11 +54,11 @@ Modul 6: Modelvalidierung
 
 
 Modul 7: 
-- [ ] Partial Views
-    - [ ] Was ist eine Partial View?
-    - [ ] Implementieren einer einfachen Partial View
-    - [ ] Razor-Syntax Redundanzen mit Partial View beheben 
-    - [ ] Partial View als Optionale View-Erweiterugen 
+- [x] Partial Views
+    - [x] Was ist eine Partial View?
+    - [x] Implementieren einer einfachen Partial View
+    - [x] Razor-Syntax Redundanzen mit Partial View beheben 
+    - [x] Partial View als Optionale View-Erweiterugen 
 
 - [ ] TagHelpers
 - [ ] HTMLHelpers

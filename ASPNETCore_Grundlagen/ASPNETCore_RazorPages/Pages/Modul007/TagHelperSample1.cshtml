@@ -1,0 +1,21 @@
+﻿@page
+@using ASPNETCore_RazorPages.TagHelpers
+@model ASPNETCore_RazorPages.Pages.Modul007.TagHelperSample1Model
+@{
+}
+
+@Html.HelloWord("Asterix")
+
+@Html.HelloWorldHTMLString()
+<br />
+@Html.HelloWorldString()
+
+@{
+    MyPerson myPerson = new MyPerson { FirstName = "Otto", LastName = "Walkes" };
+}
+
+@Html.HelloWordWithComplexObject(myPerson)
+
+<br />
+<p>Ab hier wird es verrückt</p>
+@Html.RenderTableWithDbContextService()

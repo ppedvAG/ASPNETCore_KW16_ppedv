@@ -115,8 +115,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/PartialViewSample1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcUGFydGlhbFZpZXdTYW1wbGUxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/TagHelper3Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcVGFnSGVscGVyM1Rlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/TagHelperSample1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcVGFnSGVscGVyU2FtcGxlMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Modul007/TagHelperSample2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kdWwwMDdcVGFnSGVscGVyU2FtcGxlMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Privacy.cshtml]
@@ -125,6 +157,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Shared/_DateTimePartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9EYXRlVGltZVBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Shared/_MovieDetailsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Nb3ZpZURldGFpbHNWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Shared/_MovieEditableView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Nb3ZpZUVkaXRhYmxlVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Aktueller Kurs/ASPNETCore_KW16_ppedv/ASPNETCore_Grundlagen/ASPNETCore_RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]

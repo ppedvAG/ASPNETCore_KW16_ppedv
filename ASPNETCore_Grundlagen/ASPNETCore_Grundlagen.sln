@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Agenda.md = ..\Agenda.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCore_WebAPI", "ASPNETCore_WebAPI\ASPNETCore_WebAPI.csproj", "{FD38277F-4595-43FC-991E-56D71818827A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{752BCBDF-72EE-46CE-B7AC-6C033FA7F3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752BCBDF-72EE-46CE-B7AC-6C033FA7F3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752BCBDF-72EE-46CE-B7AC-6C033FA7F3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD38277F-4595-43FC-991E-56D71818827A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD38277F-4595-43FC-991E-56D71818827A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD38277F-4595-43FC-991E-56D71818827A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD38277F-4595-43FC-991E-56D71818827A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{02C3EAC5-C8F2-45E4-AACC-3EC1B6A47081} = {6C125677-62AE-499E-B1C8-B3F57AB2E77C}
 		{AFA371CB-7524-42A2-95F2-269DF30AB605} = {D4993BBB-729A-4540-B57E-5500D52D69EE}
 		{752BCBDF-72EE-46CE-B7AC-6C033FA7F3EE} = {D4993BBB-729A-4540-B57E-5500D52D69EE}
+		{FD38277F-4595-43FC-991E-56D71818827A} = {D4993BBB-729A-4540-B57E-5500D52D69EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC5E7228-7B47-486C-AB4D-F2E2E516D950}

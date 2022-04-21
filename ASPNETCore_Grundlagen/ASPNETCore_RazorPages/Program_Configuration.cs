@@ -13,7 +13,7 @@
 ////Einlesen einer weiteren JSON - Datei 
 //builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
 //{
-//    config.AddJsonFile("GameSettings.json", optional:true, reloadOnChange: true);
+//    config.AddJsonFile("GameSettings.json", optional: true, reloadOnChange: true);
 //});
 
 ////Lese Sektion 'GameSettings' aus GameSettings.json aus und übertrage (mappe) die Struktur in die GameSettings-Klasse! Daher müssen die Properties der GameSettings-Klasse die selben Namen

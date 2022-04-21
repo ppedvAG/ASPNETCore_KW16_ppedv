@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASPNETCore_RazorPages.Data
 {
-    public class MovieDbContext :DbContext
+    public class MovieDbContext : DbContext
     {
 
         /// <summary>
@@ -13,6 +13,8 @@ namespace ASPNETCore_RazorPages.Data
         public MovieDbContext(DbContextOptions<MovieDbContext> options)
             :base(options)
         {
+
+           
         }
 
 

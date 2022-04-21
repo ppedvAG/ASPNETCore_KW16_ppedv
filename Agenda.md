@@ -75,27 +75,35 @@ Tag 3:
 
 
 Modul 9: Routing
-- [ ] QueryString
-- [ ] RouteAttributes
-- [ ] RouteTemplates
-- [ ] FriendlyRoutes
+- [x] QueryString
+- [x] RouteAttributes
+- [x] RouteTemplates
+- [x] FriendlyRoutes
 
 
 Modul 10: 
-- [ ] ViewComponents
-- [ ] Lokalisierung
+- [x] ViewComponents
+- [ ] Lokalisierung 
   
 Modul 11: 
 - [ ] SignalR -> Hanne3s
 - [ ] Identity UI 
 
-Modul 12:
-- [ ] Middleware Pipeline
-- [ ] Photo Gallery
+
 
 
 Tag3: 
 WebAPI 
+
+Modul12:
+ASPNET Core: 
+- [ ] Photo Gallery (unformatiert)
+
+- [ ] Middleware-Pipeline
+
+- [ ] Thumbnail - Middleware für formatierte Fotos  -> formartierte Fotos
+
+
 - [ ] Einstieg 
 - [ ] Eingliederung im ASP.NET Core (Verwansdschaft mit MVC)
 
@@ -105,12 +113,10 @@ WebAPI
 - [ ] Swagger
 - [ ] Swagger - Client 
 - [ ] Broadcast Video 
-- [ ] Multipler File-Upload und Download vie Zip
+- [ ] Multiple File-Upload und Download vie Zip (viel Quellcode)
 
-
-
-
-
+gRPC:  
+- [ ] ÜBerblick 
 
 
 

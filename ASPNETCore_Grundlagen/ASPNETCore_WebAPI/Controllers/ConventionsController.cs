@@ -13,32 +13,37 @@ namespace ASPNETCore_WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ShipsController : ControllerBase
+
+    [ApiConventionType(typeof(DefaultApiConventions))] //Wird Klassenweit behandelt
+    public class ConventionsController : ControllerBase
     {
         private readonly ShipDbContext _context;
 
-        public ShipsController(ShipDbContext context)
+        public ConventionsController(ShipDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Ships
+        // GET: api/Conventions
         [HttpGet]
+        //ProducesResponseType kann man manuell die StatusCodes mit angeben 
+        [ProducesResponseType(typeof(Ship), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Ship), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(Ship), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Ship), StatusCodes.Status226IMUsed)]
+
+
         public async Task<ActionResult<IEnumerable<Ship>>> GetShip()
         {
             return await _context.Ship.ToListAsync();
         }
 
+        // GET: api/Conventions/5
+        [HttpGet("{id}")]
 
-        // GET: https://localhost:7077/api/Ships/GetShipById?id=3    -> müsste  [HttpGet("GetShipById")]
-
-        /// <summary>
-        /// Lese Schiffe aus ->  // GET: api/Ships/5
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        [HttpGet("{id}")]  //Id wird als Route-Template verwende 
-        public async Task<ActionResult<Ship>> GetShip(int id) // [HttpGet("{id}")] muss GetShip(int id) den selben id-Namen aufweisen
+        //ApiConventionMethod -> behinaltet eine Sammlung von ProducesResponseType
+        [ApiConventionMethod(typeof(DefaultApiConventions), nameof(DefaultApiConventions.Get))]
+        public async Task<ActionResult<Ship>> GetShip(int id)
         {
             var ship = await _context.Ship.FindAsync(id);
 
@@ -50,26 +55,25 @@ namespace ASPNETCore_WebAPI.Controllers
             return ship;
         }
 
-        // PUT: api/Ships/5
+        // PUT: api/Conventions/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
 
+
         /// <summary>
-        /// Aktualisiere Schiff
+        /// Ein Schiff-Datensatz wird aktualisiert
         /// </summary>
-        /// <param name="id">identifier</param>
-        /// <param name="ship">Schaff Datensatz</param>
+        /// <param name="id"></param>
+        /// <param name="ship"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutShip(int id, Ship ship)
         {
-
-            //Cross-Site Attack sollten hiermit unterbunden werden 
             if (id != ship.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(ship).State = EntityState.Modified; //Schiffs-Entity wird als geändert markiert
+            _context.Entry(ship).State = EntityState.Modified;
 
             try
             {
@@ -90,18 +94,31 @@ namespace ASPNETCore_WebAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/Ships
+        // POST: api/Conventions
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+
+
+        /// <summary>
+        /// Ein Schiff-Datensatz wird hinzugefügt
+        /// </summary>
+        /// <param name="ship">Neues Schiff</param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<Ship>> PostShip(Ship ship)
         {
             _context.Ship.Add(ship);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetShip", new { id = ship.Id }, ship); //Bekommen wir ein Ship-Object mit einer Id zurückgegeben (Response) 
+            return CreatedAtAction("GetShip", new { id = ship.Id }, ship);
         }
 
-        // DELETE: api/Ships/5
+        // DELETE: api/Conventions/5
+
+        /// <summary>
+        /// Ein Schiff-Datensatz wird gelöscht
+        /// </summary>
+        /// <param name="id">Zu löschendes Schiff</param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteShip(int id)
         {

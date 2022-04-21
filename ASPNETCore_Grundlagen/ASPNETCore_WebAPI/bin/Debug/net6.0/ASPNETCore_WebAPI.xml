@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASPNETCore_WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ASPNETCore_WebAPI.Controllers.ConventionsController.PutShip(System.Int32,ASPNETCore_WebAPI.Models.Ship)">
+            <summary>
+            Ein Schiff-Datensatz wird aktualisiert
+            </summary>
+            <param name="id"></param>
+            <param name="ship"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNETCore_WebAPI.Controllers.ConventionsController.PostShip(ASPNETCore_WebAPI.Models.Ship)">
+            <summary>
+            Ein Schiff-Datensatz wird hinzugefügt
+            </summary>
+            <param name="ship">Neues Schiff</param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNETCore_WebAPI.Controllers.ConventionsController.DeleteShip(System.Int32)">
+            <summary>
+            Ein Schiff-Datensatz wird gelöscht
+            </summary>
+            <param name="id">Zu löschendes Schiff</param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNETCore_WebAPI.Controllers.ShipsController.GetShip(System.Int32)">
+            <summary>
+            Lese Schiffe aus ->  // GET: api/Ships/5
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNETCore_WebAPI.Controllers.ShipsController.PutShip(System.Int32,ASPNETCore_WebAPI.Models.Ship)">
+            <summary>
+            Aktualisiere Schiff
+            </summary>
+            <param name="id">identifier</param>
+            <param name="ship">Schaff Datensatz</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

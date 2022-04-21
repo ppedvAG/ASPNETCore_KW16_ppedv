@@ -1,0 +1,52 @@
+2022-04-21 11:15:06.085 +02:00 [INF] Starting web host
+2022-04-21 11:15:07.671 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ASPNETCore_WebAPI.Controllers.IntroController.Get (ASPNETCore_WebAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-21 11:16:45.374 +02:00 [INF] Starting web host
+2022-04-21 11:18:22.366 +02:00 [INF] Starting web host
+2022-04-21 11:18:28.915 +02:00 [INF] Intro->Get wurde aufgerufen
+2022-04-21 11:23:16.678 +02:00 [INF] Starting web host
+2022-04-21 11:23:18.329 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Intro" for actions - ASPNETCore_WebAPI.Controllers.IntroController.GetHelloWorld (ASPNETCore_WebAPI),ASPNETCore_WebAPI.Controllers.IntroController.GetName (ASPNETCore_WebAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-21 11:23:30.168 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ASPNETCore_WebAPI.Controllers.IntroController.GetName (ASPNETCore_WebAPI)
+ASPNETCore_WebAPI.Controllers.IntroController.GetHelloWorld (ASPNETCore_WebAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-21 11:24:13.176 +02:00 [INF] Starting web host
+2022-04-21 11:24:25.091 +02:00 [INF] Intro->Get wurde aufgerufen
+2022-04-21 11:27:28.430 +02:00 [INF] Starting web host
+2022-04-21 11:32:36.762 +02:00 [INF] Starting web host
+2022-04-21 11:37:27.887 +02:00 [INF] Starting web host
+2022-04-21 13:22:19.806 +02:00 [INF] Starting web host
+2022-04-21 13:39:01.866 +02:00 [INF] Starting web host
+2022-04-21 13:39:04.837 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ASPNETCore_WebAPI.Controllers.ReturnTypesController.GetShipIEnumerableAsync (ASPNETCore_WebAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-21 13:39:55.697 +02:00 [INF] Starting web host
+2022-04-21 13:44:31.827 +02:00 [INF] Starting web host
+2022-04-21 13:53:53.727 +02:00 [INF] Starting web host
+2022-04-21 14:01:07.312 +02:00 [INF] Starting web host
+2022-04-21 14:09:47.039 +02:00 [INF] Starting web host
+2022-04-21 14:14:13.701 +02:00 [INF] Starting web host
+2022-04-21 14:16:08.357 +02:00 [INF] Starting web host
+2022-04-21 14:18:01.593 +02:00 [INF] Starting web host

@@ -41,5 +41,26 @@
             <param name="ship">Schaff Datensatz</param>
             <returns></returns>
         </member>
+        <member name="M:ASPNETCore_WebAPI.Services.IFileService.UploadFile(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.String)">
+            <summary>
+            Upload von Dateien
+            </summary>
+            <param name="files">multiple</param>
+            <param name="subDirectory">Upload-Ziel</param>
+        </member>
+        <member name="M:ASPNETCore_WebAPI.Services.IFileService.DownloadFiles(System.String)">
+            <summary>
+            Download von Dateien als Zip
+            </summary>
+            <param name="subDirectory"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASPNETCore_WebAPI.Services.IFileService.SizeConverter(System.Int64)">
+            <summary>
+            Upload Größenangabe als String
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

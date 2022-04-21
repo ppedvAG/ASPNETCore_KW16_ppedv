@@ -12,7 +12,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(); //WebAPI 
 
 //jetzt können wir im Video-Service mit Konstruktor-Injection eine Http-Client-Instanz erhalten 
-builder.Services.AddHttpClient<IVideoService, VideoService>();
+builder.Services.AddTransient<IFileService, FileService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -36,4 +36,3 @@ app.UseAuthorization();
 app.MapControllers(); //Request-URL wird an den richtigen Controller weitergleitet
 
 app.Run();
- 
